@@ -75,6 +75,7 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="lblName" destination="UjU-vA-FNm" id="bGn-um-3oP"/>
+                                            <outlet property="mainCollectionView" destination="uTc-rs-nbK" id="uEb-9A-IEB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
