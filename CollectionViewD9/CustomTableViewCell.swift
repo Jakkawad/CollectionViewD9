@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import MapleBacon
 
 class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate {
 
@@ -36,8 +37,14 @@ class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollec
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let col1 = collectionView.dequeueReusableCellWithReuseIdentifier("collectView1", forIndexPath: indexPath) as? CustomCollectionViewCell
         let item = self.mainDataArray[indexPath.row] as! NSDictionary
+        let imageUrl = item.objectForKey("ProductShowImage") as? String
+        var wwwURL = "https://www.all2sale.com/store/"
+        wwwURL += imageUrl!
+        let imageURL2 = NSURL(string: wwwURL)!
 
+        col1?.imageViewProduct.setImageWithURL(imageURL2)
         col1?.lblTitle.text = item.objectForKey("ProductName") as? String
+        col1?.lblPrice.text = item.objectForKey("StoreSid") as? String
         return col1!
     }
     override func awakeFromNib() {

@@ -85,9 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CollectionViewD9/Alamofire.framework"
-  install_framework "Pods-CollectionViewD9/SwiftyJSON.framework"
+  install_framework "Pods-CollectionViewD9/MapleBacon.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CollectionViewD9/Alamofire.framework"
-  install_framework "Pods-CollectionViewD9/SwiftyJSON.framework"
+  install_framework "Pods-CollectionViewD9/MapleBacon.framework"
 fi
