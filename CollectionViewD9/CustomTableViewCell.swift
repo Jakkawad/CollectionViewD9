@@ -8,8 +8,19 @@
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell {
+class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate {
 
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var mainCollectionView: CustomCollectionViewCell!
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let col1 = collectionView.dequeueReusableCellWithReuseIdentifier("collectView1", forIndexPath: indexPath) as? CustomCollectionViewCell
+        
+        return col1!
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		841C23371C8FE59A00EDCB64 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */; };
+		841C23391C8FE6DE00EDCB64 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C23381C8FE6DE00EDCB64 /* CustomCollectionViewCell.swift */; };
 		846B2BD51C8FE2E5001AF356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B2BD41C8FE2E5001AF356 /* AppDelegate.swift */; };
 		846B2BD71C8FE2E5001AF356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B2BD61C8FE2E5001AF356 /* ViewController.swift */; };
 		846B2BDA1C8FE2E5001AF356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B2BD81C8FE2E5001AF356 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		841C23381C8FE6DE00EDCB64 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		846B2BD11C8FE2E5001AF356 /* CollectionViewD9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewD9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B2BD41C8FE2E5001AF356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846B2BD61C8FE2E5001AF356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				846B2BDD1C8FE2E5001AF356 /* LaunchScreen.storyboard */,
 				846B2BE01C8FE2E5001AF356 /* Info.plist */,
 				841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */,
+				841C23381C8FE6DE00EDCB64 /* CustomCollectionViewCell.swift */,
 			);
 			path = CollectionViewD9;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				841C23371C8FE59A00EDCB64 /* CustomTableViewCell.swift in Sources */,
 				846B2BD71C8FE2E5001AF356 /* ViewController.swift in Sources */,
 				846B2BD51C8FE2E5001AF356 /* AppDelegate.swift in Sources */,
+				841C23391C8FE6DE00EDCB64 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
