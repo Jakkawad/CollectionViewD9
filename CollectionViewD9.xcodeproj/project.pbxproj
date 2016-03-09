@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841C23371C8FE59A00EDCB64 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */; };
 		846B2BD51C8FE2E5001AF356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B2BD41C8FE2E5001AF356 /* AppDelegate.swift */; };
 		846B2BD71C8FE2E5001AF356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B2BD61C8FE2E5001AF356 /* ViewController.swift */; };
 		846B2BDA1C8FE2E5001AF356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B2BD81C8FE2E5001AF356 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		846B2BD11C8FE2E5001AF356 /* CollectionViewD9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewD9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B2BD41C8FE2E5001AF356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846B2BD61C8FE2E5001AF356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				846B2BDB1C8FE2E5001AF356 /* Assets.xcassets */,
 				846B2BDD1C8FE2E5001AF356 /* LaunchScreen.storyboard */,
 				846B2BE01C8FE2E5001AF356 /* Info.plist */,
+				841C23361C8FE59A00EDCB64 /* CustomTableViewCell.swift */,
 			);
 			path = CollectionViewD9;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841C23371C8FE59A00EDCB64 /* CustomTableViewCell.swift in Sources */,
 				846B2BD71C8FE2E5001AF356 /* ViewController.swift in Sources */,
 				846B2BD51C8FE2E5001AF356 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				846B2BE51C8FE2E5001AF356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
