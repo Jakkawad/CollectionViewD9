@@ -68,10 +68,15 @@
                                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
+                                                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="SJs-wy-5AQ">
+                                                                        <rect key="frame" x="65" y="65" width="20" height="20"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    </activityIndicatorView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <connections>
+                                                                <outlet property="activityIndicator" destination="SJs-wy-5AQ" id="ZQc-Ph-7C6"/>
                                                                 <outlet property="imageViewProduct" destination="43l-Rk-mHA" id="rgy-LX-EDO"/>
                                                                 <outlet property="lblPrice" destination="kLV-H7-tMl" id="q0e-LR-Vsd"/>
                                                                 <outlet property="lblTitle" destination="4iO-HE-CkT" id="8xb-S1-gfX"/>
