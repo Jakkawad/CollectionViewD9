@@ -17,6 +17,8 @@ class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollec
    
     @IBOutlet weak var mainCollectionView: UICollectionView!
     
+    //let refreshControl = UIRefreshControl()
+    
     var mainDataArray = NSArray()
     //var numberOfItemPerSection = 9
     
@@ -48,13 +50,19 @@ class CustomTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollec
         col1?.imageViewProduct.setImageWithURL(imageURL2)
         col1?.lblTitle.text = item.objectForKey("ProductName") as? String
         col1?.lblPrice.text = item.objectForKey("StoreSid") as? String
-        col1?.activityIndicator.stopAnimating()
+        //col1?.activityIndicator.stopAnimating()
         
         return col1!
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         feedData()
+        
+        // Refresh
+        //refreshControl.tintColor = Const.color.background
+        //refreshControl.addTarget(self, action: "feedData", forControlEvents: .ValueChanged)
+        //mainCollectionView.addSubview(refreshControl)
+        //mainCollectionView.alwaysBounceVertical = true
         // Initialization code
     }
 
